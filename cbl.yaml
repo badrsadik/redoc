@@ -99,6 +99,8 @@ paths:
                 schema:
                     $ref: '#/components/schemas/paymentBOUpdateFrom'
       responses:
+        '200':
+          description: 'Sample response: Details about AMA Serices response'
         '400':
           description: If a problem occurs
           content:
